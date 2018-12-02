@@ -32,7 +32,6 @@ while found_frequency != true do
     found_frequency = frequency_tracker.include?(frequency)
     if found_frequency
       the_found_frequency = frequency
-      puts "test"
       break
     end
 end
